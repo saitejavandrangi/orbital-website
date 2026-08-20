@@ -1,0 +1,11 @@
+1  cd orbitl-website/
+    2  cd orbital-website/
+    3  cat website.sh
+    4  git push
+    5  git log
+    6  git push
+    7  git pull
+    8  cat website.sh
+    9  chmod +x website.sh
+   10  ./website.sh
+   11  history
