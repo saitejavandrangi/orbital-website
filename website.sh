@@ -6,6 +6,7 @@ FILE=2167_orbital
 
 sudo $PKG update
 sudo $PKG install $SRV wget unzip -y
+echo "Start & Enabling the Services"
 sudo systemctl start $SRV
 sudo systemctl enable $SRV
 sudo wget $URL 
